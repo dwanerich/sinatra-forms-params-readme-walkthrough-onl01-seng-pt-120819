@@ -6,7 +6,7 @@ class App < Sinatra::Base
     erb :food_form
   end
   
-  post 'food' do
-    "Hello World"
+  post '/food' do
+    params.to_s
   end
 end
