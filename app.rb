@@ -8,5 +8,6 @@ class App < Sinatra::Base
   
   post '/food' do
     params.to_s
+    erb :food
   end
 end
